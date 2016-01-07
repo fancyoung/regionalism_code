@@ -11,6 +11,7 @@ fs.readFile('data.txt', 'UTF-8', function(err, data) {
     _.each(a, function(v, k) {
       var desc = v.name;
       var level = 1;
+      v.code = k;
       if(k%10000 != 0) {
         level = 2;
         if(k%100 != 0) {
