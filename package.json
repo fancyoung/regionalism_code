@@ -1,0 +1,20 @@
+{
+  "name": "regionalism_code",
+  "version": "0.1.0",
+  "description": "cn regionalism code",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fancyoung/regionalism_code.git"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "author": "siyang",
+  "license": "ISC"
+}
