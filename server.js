@@ -27,7 +27,7 @@ fs.readFile('data.txt', 'UTF-8', function(err, data) {
       v.level = level;
       v.desc = desc;
     });
-    fs.writeFile('output_data.json', JSON.stringify(a));
+    fs.writeFile('output_data.json', JSON.stringify(a, null, 4));
   }
 });
 
